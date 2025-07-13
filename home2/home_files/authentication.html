@@ -1,0 +1,107 @@
+
+<!-- saved from url=(0043)https://ibank.klikbca.com/authentication.do -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link type="text/css" rel="stylesheet" href="./ibank.css">
+<link type="text/css" rel="stylesheet" href="./banner-slide.css">
+<script type="text/javascript">
+function AtmRegistration() {
+    msgWindow=window.open("atmRegistration.jsp","NameOfWindow","toolbar=no,width=550,height=200,left=80,top=80,directories=no,status=no,scrollbars=no,resize=yes,menubar=no")
+}
+</script>
+</head>
+<body alink="white" link="white" vlink="white" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#ffffff" onload="startclock();fncSetTimer();fncTimer();">
+
+
+<link type="text/css" rel="stylesheet" href="./ibank.css">
+<style type="text/css">
+<!--
+.small{FONT-FAMILY: Arial, Helvetica, sans-serif;
+       FONT-SIZE: 3pt;
+       FONT-STYLE: normal
+}
+.aktif{COLOR: blue;
+       FONT-SIZE: 9pt;
+       FONT-FAMILY: Arial, Helvetica, sans-serif;
+       FONT-STYLE: normal
+}
+A:active{ COLOR: yellow; }
+A:hover{ COLOR: yellow; }
+A:link {TEXT-DECORATION: none}
+A:visited {text-decoration: none; }
+-->
+</style>
+
+<script>
+function startClock() {
+   setInterval(showTime, 1000);
+}
+
+function showTime() {
+   const now = new Date();
+   const date = now.getDate().toString().padStart(2, '0');
+   const month = (now.getMonth() + 1).toString().padStart(2, '0');
+   const year = now.getFullYear();
+   const hours = now.getHours().toString().padStart(2, '0');
+   const minutes = now.getMinutes().toString().padStart(2, '0');
+   const seconds = now.getSeconds().toString().padStart(2, '0');
+
+   document.getElementById("DateTime").innerHTML = 
+       "Tanggal : " + date + "/" + month + "/" + year + 
+       " Jam : " + hours + ":" + minutes + ":" + seconds;
+}
+
+startClock();
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="590">
+   <tbody><tr height="20" bgcolor="#e7d300">
+      <td bgcolor="#e7d300" width="393">
+         <font face="Verdana" size="2" color="#0000bb">&nbsp;
+            <font id="DateTime" face="verdana" color="#0000bb" size="1"></font>
+         </font>
+      </td>
+      <td width="25" bgcolor="#4a55b5"><img src="./latar1b.jpg"></td>
+      <td width="100" bgcolor="#4a55b5" align="center" class="aktif"></td>
+   </tr>
+   <tr bgcolor="#4A55B5" height="2"><td colspan="3"></td></tr>
+</tbody></table>
+
+<table border="0" cellpadding="1" cellspacing="0" width="590">
+   <tbody><tr height="20">
+      <td colspan="3" bgcolor="#8486de">
+         <span id="DateTime"></span>
+      </td>
+   </tr>
+   <tr>
+      <td bgcolor="#FFFFFF" colspan="3"></td></tr><tr><td bgcolor="#FFFFFF" colspan="3"></td>
+   </tr>
+</tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="590">
+  </table><table border="0" cellpadding="0" cellspacing="0" width="590">
+    <tbody><tr><td height="18"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000099">Login Terakhir Anda tanggal : 20/06/2024 13:25:32</font></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td><center><b><font face="Verdana, Arial, Helvetica, sans-serif" size="3" color="#000099">Andi Pratama, Selamat Datang Di Internet Banking BCA</font></b></center></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td style="font-size:14px;"><center><img class="banner-image" src="./banner_home.png"></center></td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr><td><center><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000099"><i>UNTUK INFO LEBIH LANJUT<br>HUBUNGI HALO BCA DI 1500888</i></font></center></td></tr>
+  </tbody></table>
+
+
+  
+<form name="iBankForm" method="POST">
+</form>
+
+
+
+</body></html>

@@ -1,0 +1,127 @@
+body {
+margin-left:0;
+margin-top:0;
+background-color:#FFFFFF;
+}
+
+a:active {
+text-decoration:underline;
+color:#000099;
+}
+
+a:link {
+text-decoration:underline;
+color:#000099;
+}
+
+a:visited {
+text-decoration:underline;
+color:#000099;
+}
+
+table {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#0000bb;
+}
+
+.tr-grey {
+background-color:#F0F0F0;
+height:20;
+}
+
+.tr-white {
+background-color:#FFFFFF;
+height:20;
+}
+
+.tr-darkgrey {
+background-color:#E0E0E0;
+}
+
+.tr-lightgrey {
+background-color:#F0F0F0;
+}
+
+.tr-header {
+background-color:#8486de;
+font-family:Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+font-size:13px;
+color:#FFFFFF;
+height:20;
+}
+
+.td-confirmation-message {
+color:#0000bb;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+}
+
+.td-left {
+width:45%;
+}
+
+.td-center {
+width:5%;
+font-family:Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+font-size:9px;
+text-align:center;
+}
+
+.td-right {
+width:55%;
+}
+
+.td-red-left {
+font-weight:bold;
+color:#FF0000;
+}
+
+.td-red {
+font-weight:bold;
+color:#FF0000;
+text-align:center;
+}
+
+.td-blue {
+color:#0000ff;
+text-align:left;
+}
+
+.aktif{
+color: blue;
+font-size: 9pt;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+}
+
+.default-fnt{
+color: #0000bb;
+font-size: 1em;
+font-family: Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+}
+
+.td-1_3 {
+width: 45%;
+text-align: left;
+}
+
+.td-2_3 {
+width: 5%;
+text-align: center;
+}
+
+.td-3_3 {
+width: 50%;
+text-align: justify;
+}
+
+.hyperlinkStd a:hover {
+	color: #0000a7;
+}
+
+.radioButtonLabel{
+	position:relative;
+	top:-3px;
+}

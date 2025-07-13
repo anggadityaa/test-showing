@@ -1,0 +1,156 @@
+
+<!-- saved from url=(0043)https://ibank.klikbca.com/balanceinquiry.do -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link type="text/css" rel="stylesheet" href="./ibank.css">
+<style type="text/css">
+<!--
+.small{FONT-FAMILY: Arial, Helvetica, sans-serif;
+       FONT-SIZE: 3pt;
+       FONT-STYLE: normal
+}
+.aktif{COLOR: blue;
+       FONT-SIZE: 9pt;
+       FONT-FAMILY: Arial, Helvetica, sans-serif;
+       FONT-STYLE: normal
+}
+A:active{ COLOR: yellow; }
+A:hover{ COLOR: yellow; }
+A:link {TEXT-DECORATION: none}
+A:visited {text-decoration: none; }
+-->
+</style>
+<script>
+function startClock() {
+   setInterval(showTime, 1000);
+}
+
+function showTime() {
+   const now = new Date();
+   const date = now.getDate().toString().padStart(2, '0');
+   const month = (now.getMonth() + 1).toString().padStart(2, '0');
+   const year = now.getFullYear();
+   const hours = now.getHours().toString().padStart(2, '0');
+   const minutes = now.getMinutes().toString().padStart(2, '0');
+   const seconds = now.getSeconds().toString().padStart(2, '0');
+
+   document.getElementById("DateTime").innerHTML = 
+       "Tanggal : " + date + "/" + month + "/" + year + 
+       " Jam : " + hours + ":" + minutes + ":" + seconds;
+}
+
+startClock();
+</script></head>
+
+<body alink="white" link="white" vlink="white" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#ffffff" onload="startclock();fncSetTimer();fncTimer();">
+<table border="0" cellpadding="0" cellspacing="0" width="590">
+   <tbody><tr height="20" bgcolor="#e7d300">
+      <td bgcolor="#e7d300" width="393">
+         <font face="Verdana" size="2" color="#0000bb">&nbsp;
+            <font id="DateTime" face="verdana" color="#0000bb" size="1">Tanggal : 13/07/2025           Jam : 18:53:32</font>
+         </font>
+      </td>
+      <td width="25" bgcolor="#4a55b5"><img src="./latar1b.jpg"></td>
+      <td width="100" bgcolor="#4a55b5" align="center" class="aktif"></td>
+   </tr>
+   <tr bgcolor="#4A55B5" height="2"><td colspan="3"></td></tr>
+</tbody></table>
+
+<table border="0" cellpadding="1" cellspacing="0" width="590">
+   <tbody><tr height="20">
+      <td colspan="3" bgcolor="#8486de">
+         <font size="2" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">&nbsp;INFORMASI REKENING - INFORMASI SALDO</font>
+      </td>
+   </tr>
+   <tr>
+      <td bgcolor="#FFFFFF" colspan="3"></td></tr><tr><td bgcolor="#FFFFFF" colspan="3"></td>
+   </tr>
+</tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="590">
+   <tbody><tr>
+      <td width="25%" bgcolor="#f0f0f0">
+         <div align="left">
+         <font face="Verdana" size="2" color="#0000bb">
+         <b>No.Rekening</b>
+         </font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#f0f0f0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         <b>Jenis Rekening</b>
+         </font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#f0f0f0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         <b>Mata Uang</b></font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#f0f0f0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         <b>Saldo Efektif</b>
+         </font>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td width="25%" bgcolor="#e0e0e0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         1082205360
+         </font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#e0e0e0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         Tabungan
+         </font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#e0e0e0">
+         <div align="center">
+         <font face="Verdana" size="2" color="#0000bb">
+         IDR</font>
+         </div>
+      </td>
+      <td width="25%" bgcolor="#e0e0e0">
+         <div align="right">
+         <font face="Verdana" size="2" color="#0000bb">
+         1.524.252.232,00
+         </font>
+         </div>
+      </td>
+   </tr>
+
+        </tbody></table>
+        
+
+    
+<table border="0" cellpadding="0" cellspacing="0" width="590" bordercolor="#ffffff">
+<tbody><tr height="25">
+  <td valign="top">
+    <span align="left">
+      <font size="1" face="Verdana" color="#f00000"><b> </b> </font>
+    </span>
+  </td>
+</tr>
+<tr><td colspan="3"><hr color="#8486ce"></td></tr>
+</tbody></table>
+<script language="javascript">
+function fncDoubleOut(){
+    alert('Transaksi Anda sedang di proses. Terima kasih');
+    return false;
+}
+</script>
+
+<form name="iBankForm" method="POST" action="https://ibank.klikbca.com/balanceinquiry.do">
+</form>
+
+
+
+
+</body></html>

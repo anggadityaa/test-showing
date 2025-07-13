@@ -1,0 +1,93 @@
+body {
+  font-family: "BCA Sans", "Open Sans", sans-serif!important;
+}
+.a-tooltip[data-tooltip]:before {
+  font-family:"BCA Sans", "Open Sans", sans-serif!important;
+}
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-Bold.woff2') format('woff2'),
+        url('BCASans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-BoldItalic.woff2') format('woff2'),
+        url('BCASans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-Extrabold.woff2') format('woff2'),
+        url('BCASans-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-ExtraboldItalic.woff2') format('woff2'),
+        url('BCASans-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-Italic.woff2') format('woff2'),
+        url('BCASans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-SemiBoldItalic.woff2') format('woff2'),
+        url('BCASans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-Regular.woff2') format('woff2'),
+        url('BCASans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-Light.woff2') format('woff2'),
+        url('BCASans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BCA Sans';
+    src: url('BCASans-SemiBold.woff2') format('woff2'),
+        url('BCASans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.fw-bold {
+  font-weight: 600 !important;
+}
+.fw-bolder {
+  font-weight: 700 !important;
+}
